@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COMP6062JRLab5</title>
+        <!-- CSS link -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Lab 5 - Event Handler</h2>
+        <form id="myForm">
+
+            <div class="week5-input-group">
+                <label>Choose an option:</label>
+                <!-- Select element use in event handler -->
+                <select id="options">
+                    <option value=" ">-- Selection --</option>
+                    <option value="showElment">Show Element</option>
+                    <option value="hideElement">Hide Element</option>
+                </select>
+            </div>
+            <!-- Div container manipulated in event handler to hide/show label and input chkbox -->
+            <div class="week5-input-group" id="inputContainer">
+                <label for="myCheckbox">Checkbox Label</label>
+                <input type="checkbox" id="myCheckbox">
+            </div>
+
+            <div class="week5-input-group">
+                <label for="textInput">Input Text:</label>
+                <!-- Input text element use in event handler -->
+                <input class="textInput" type="text">
+            </div>
+
+        </form>
+        <!-- JavaScript link -->
+        <script src="script.js"></script>
+    </body>
+</html>
+
